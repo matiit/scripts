@@ -1,4 +1,12 @@
 #!/bin/sh
+#
+# Run new tmux session
+#  ---------
+# | htop    |
+# |---------|
+# |   | ls  |
+#  ---------
+
 
 tmux new-session \; \
   send-keys 'htop' C-m \; \
